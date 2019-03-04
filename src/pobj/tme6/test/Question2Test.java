@@ -2,7 +2,7 @@ package pobj.tme6.test;
 
 import static org.junit.Assert.assertEquals;
 
-import javafx.scene.paint.Color;
+import java.awt.Color;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
@@ -32,7 +32,8 @@ public class Question2Test {
 		t.turn(90);
 		t.setColor(Color.BLUE);
 		t.move(20);
-		assertEquals("0 0 0 10 0xff0000ff\n0 10 20 10 0x0000ffff\n", getOut());
+		//assertEquals("0 0 0 10 0xff0000ff\n0 10 20 10 0x0000ffff\n", getOut());
+		assertEquals("0 0 0 10 java.awt.Color[r=255,g=0,b=0]\n0 10 20 10 java.awt.Color[r=0,g=0,b=255]\n", getOut());
 	}
 
 }

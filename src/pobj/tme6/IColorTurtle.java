@@ -1,6 +1,6 @@
 package pobj.tme6;
 
-import javafx.scene.paint.Color;
+import java.awt.Color;
 
 public interface IColorTurtle extends ITurtle {
 	
