@@ -1,8 +1,14 @@
 package pobj.tme6;
 
+<<<<<<< HEAD
 import javafx.scene.paint.Color;
 
 public class BoundContext implements IContext {
+=======
+import java.awt.Color;
+
+public class BoundContext implements IContext{
+>>>>>>> 65d314c5cb9b38fc32e6964a10ebdba1d205a264
 	
 	private int MinX;
 	private int MinY;
@@ -34,6 +40,10 @@ public class BoundContext implements IContext {
 	
 	public int getMaxY() {
 		return this.MaxY;
+<<<<<<< HEAD
 }
+=======
+	}
+>>>>>>> 65d314c5cb9b38fc32e6964a10ebdba1d205a264
 
 }

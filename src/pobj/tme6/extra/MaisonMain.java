@@ -2,7 +2,6 @@ package pobj.tme6.extra;
 
 import javafx.application.Application;
 import javafx.stage.Stage;
-
 import pobj.tme6.ContextTurtle;
 import pobj.tme6.IColorTurtle;
 

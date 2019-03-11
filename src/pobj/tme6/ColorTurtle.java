@@ -1,6 +1,6 @@
 package pobj.tme6;
 
-import javafx.scene.paint.Color;
+import java.awt.Color;
 
 public class ColorTurtle extends Turtle implements IColorTurtle {
 	
@@ -26,6 +26,10 @@ public class ColorTurtle extends Turtle implements IColorTurtle {
 		if(!crayonUp) draw(this.x, this.y, newX, newY, color);
 		this.x = newX;
 		this.y = newY;
+<<<<<<< HEAD
      }
+=======
+	}
+>>>>>>> 65d314c5cb9b38fc32e6964a10ebdba1d205a264
 
 }

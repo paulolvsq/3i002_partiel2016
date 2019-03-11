@@ -1,6 +1,10 @@
 package pobj.tme6;
 
+<<<<<<< HEAD
 import javafx.scene.paint.Color;
+=======
+import java.awt.Color;
+>>>>>>> 65d314c5cb9b38fc32e6964a10ebdba1d205a264
 
 public class PrintContext implements IContext {
 
