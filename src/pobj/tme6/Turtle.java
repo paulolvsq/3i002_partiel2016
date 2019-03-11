@@ -5,19 +5,19 @@ public class Turtle implements ITurtle {
 	protected int x;
 	protected int y;
 	protected int angle;
-	protected boolean crayonUp; //true : on écrit pas false : on écrit
+	protected boolean crayonUp;
 	
 	public Turtle() {
-		x = 0;
-		y = 0;
-		angle = 0;
-		crayonUp = false; 
+		this.x = 0;
+		this.y = 0;
+		this.angle = 0;
+		crayonUp = false;
 	}
 	
 	public void move(int length) {
-		int newX = this.x + (int)(length*Math.sin(angle*Math.PI / 180.));
-		int newY = this.y + (int)(length*Math.cos(angle*Math.PI / 180.));
-		if(this.crayonUp == false) draw(this.x, this.y, newX, newY);
+		int newX = this.x + (int) (length * Math.sin(angle * Math.PI / 180.));
+		int newY = this.y + (int) (length * Math.cos(angle * Math.PI / 180.));
+		if(!crayonUp) draw(this.x, this.y, newX, newY);
 		this.x = newX;
 		this.y = newY;
 	}
@@ -27,7 +27,7 @@ public class Turtle implements ITurtle {
 	}
 	
 	public void up() {
-		this.crayonUp = true; 
+		this.crayonUp = true;
 	}
 	
 	public void down() {
@@ -36,6 +36,5 @@ public class Turtle implements ITurtle {
 	
 	public void draw(int x1, int y1, int x2, int y2) {
 		System.out.println(x1+" "+y1+" "+x2+" "+y2);
-	}
-
+}
 }
