@@ -1,12 +1,11 @@
 package pobj.tme6;
 
-import java.awt.Color;
+import javafx.scene.paint.Color;
 
 public class ColorTurtleAdapter implements IColorTurtle {
-	
 
 	private ITurtle t;
-	
+
 	public ColorTurtleAdapter(ITurtle t) {
 		this.t = t;
 	}
@@ -16,7 +15,7 @@ public class ColorTurtleAdapter implements IColorTurtle {
 	}
 
 	public void turn(int angle) {
-	this.t.turn(angle);
+		this.t.turn(angle);
 	}
 
 	public void up() {
@@ -28,12 +27,8 @@ public class ColorTurtleAdapter implements IColorTurtle {
 	}
 
 	public void setColor(Color color) {
-		
-<<<<<<< HEAD
-}
-	
-=======
+
 	}
->>>>>>> 65d314c5cb9b38fc32e6964a10ebdba1d205a264
+
 
 }

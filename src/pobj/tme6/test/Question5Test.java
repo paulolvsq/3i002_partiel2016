@@ -31,8 +31,7 @@ public class Question5Test {
 		ICommand cmd = new CommandMove(10);
 		cmd.execute(t);
 		cmd.execute(t);
-		//assertEquals("0 0 0 10 0x000000ff\n0 10 0 20 0x000000ff\n", getOut());
-		assertEquals("0 0 0 10 java.awt.Color[r=0,g=0,b=0]\n0 10 0 20 java.awt.Color[r=0,g=0,b=0]\n", getOut());
+		assertEquals("0 0 0 10 0x000000ff\n0 10 0 20 0x000000ff\n", getOut());
 	}
 
 }

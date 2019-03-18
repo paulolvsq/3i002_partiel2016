@@ -2,7 +2,7 @@ package pobj.tme6.test;
 
 import static org.junit.Assert.assertEquals;
 
-import java.awt.Color;
+import javafx.scene.paint.Color;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 

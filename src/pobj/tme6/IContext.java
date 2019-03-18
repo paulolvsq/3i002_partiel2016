@@ -1,6 +1,6 @@
 package pobj.tme6;
 
-import java.awt.Color;
+import javafx.scene.paint.Color;
 
 public interface IContext {
 	

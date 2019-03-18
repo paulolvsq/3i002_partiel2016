@@ -1,12 +1,12 @@
 package pobj.tme6.extra;
 
-import java.awt.Canvas;
-import java.awt.Color;
-
+import javafx.scene.paint.Color;
+import javafx.stage.Stage;
 import javafx.scene.Scene;
+import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.layout.VBox;
-import javafx.stage.Stage;
+
 import pobj.tme6.IContext;
 
 public class JFXContext implements IContext {

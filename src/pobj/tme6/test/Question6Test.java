@@ -42,7 +42,7 @@ public class Question6Test {
 		    out.down();
 		}
 		
-		assertEquals("0 0 0 10 java.awt.Color[r=0,g=0,b=0]\n0 10 10 10 java.awt.Color[r=0,g=0,b=0]\n10 10 10 0 java.awt.Color[r=0,g=0,b=0]\n10 0 0 0 java.awt.Color[r=0,g=0,b=0]\n0 30 0 40 java.awt.Color[r=0,g=0,b=0]\n0 40 10 40 java.awt.Color[r=0,g=0,b=0]\n10 40 10 30 java.awt.Color[r=0,g=0,b=0]\n10 30 0 30 java.awt.Color[r=0,g=0,b=0]\n0 60 0 70 java.awt.Color[r=0,g=0,b=0]\n0 70 10 70 java.awt.Color[r=0,g=0,b=0]\n10 70 10 60 java.awt.Color[r=0,g=0,b=0]\n10 60 0 60 java.awt.Color[r=0,g=0,b=0]\n", getOut());
+		assertEquals("0 0 0 10 0x000000ff\n0 10 10 10 0x000000ff\n10 10 10 0 0x000000ff\n10 0 0 0 0x000000ff\n0 30 0 40 0x000000ff\n0 40 10 40 0x000000ff\n10 40 10 30 0x000000ff\n10 30 0 30 0x000000ff\n0 60 0 70 0x000000ff\n0 70 10 70 0x000000ff\n10 70 10 60 0x000000ff\n10 60 0 60 0x000000ff\n", getOut());
 	}
 	
 }
