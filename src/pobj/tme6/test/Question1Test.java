@@ -15,7 +15,8 @@ public class Question1Test {
 
 	ByteArrayOutputStream out = new ByteArrayOutputStream();
 
-	@Before public void atBefore() {
+	@Before 
+	public void atBefore() {
 		System.setOut(new PrintStream(out));
 	}
 	
@@ -24,7 +25,8 @@ public class Question1Test {
 		return out.toString();
 	}
 
-	@Test public void test() {
+	@Test 
+	public void test() {
 		ITurtle t = new Turtle();
 		t.move(10);
 		t.turn(45);
